@@ -48,3 +48,21 @@
  * PS: console.log() the result to see the difference
  */
 
+var animals = ["cat"];
+animals.push("dog");
+console.log(animals);
+animals.unshift("rabbit");
+console.log(animals);
+
+animals.splice(1, 0, "puma");
+console.log(animals);
+
+var wildAnimals = ["lion"];
+var moreWildAnimals = ["giraffe", "elephant"];
+
+var combinedWildAnimals = wildAnimals.concat(moreWildAnimals);
+console.log(wildAnimals);
+console.log(moreWildAnimals);
+console.log(combinedWildAnimals);
+
+

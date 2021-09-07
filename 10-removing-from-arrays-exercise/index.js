@@ -34,3 +34,16 @@
  *
  * * PS: console.log() the result to see the difference
  */
+ var carBrands = ["Mercedes", "Volvo", "BMW", "Citroen", "Reno", "Vauxhall"];
+
+ carBrands.pop();
+ console.log(carBrands);
+ 
+ carBrands.shift();
+ console.log(carBrands);
+ 
+ carBrands.splice(1, 1);
+ console.log(carBrands);
+ 
+ carBrands.splice(1, 1, "Rolls-Royce");
+ console.log(carBrands);

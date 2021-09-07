@@ -34,3 +34,29 @@
  * returns an opposite number
  */
 
+ function greet(name) {
+    return "Hello " + name + "!";
+};
+
+function loginValidation(age) {
+    if ((age - 18) >= 0) {
+        return "Welcome!";
+    }
+    return "Sorry, not allowed.";
+};
+
+function minNumber(p1, p2) {
+    if (p1 < p2) {
+        return p1;
+    }
+    return p2;
+};
+
+function randomNumber() {
+    return Math.floor(Math.random() * 10) + 1;
+};
+
+function getOppositeNumber(n) {
+    return n * -1;
+}
+

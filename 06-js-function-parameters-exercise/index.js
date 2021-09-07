@@ -26,3 +26,20 @@
  * as params and log sum.
  */
 
+function myName(param) {
+    console.log(typeof param);
+    console.log("My name is " + param); 
+};
+
+function myAge(param) {
+    console.log(typeof param);
+    console.log("I'm " + param + " years old");
+};
+
+function aboutMe(param1, param2) {
+    console.log("I'm from " + param1 + ", " + param2);
+};
+
+function logSum(number1, number2) {
+    console.log(number1 + number2);
+};

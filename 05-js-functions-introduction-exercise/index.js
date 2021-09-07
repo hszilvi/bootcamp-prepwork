@@ -37,3 +37,20 @@
  * alert(read about it) with the message "My favorite city is YOUR_CITY"
  *
  */
+var myFavoriteAnimal = "kakapo";
+
+function myAnimalWithLog() {
+    console.log("My favorite animal is " + myFavoriteAnimal);
+};
+
+function myAnimalWithWarn() {
+    console.warn("My favorite animal is " + myFavoriteAnimal);
+};
+
+function myAnimalWithError(f) {
+    console.error("My favorite animal is " + myFavoriteAnimal);
+};
+
+function myCity(yourCity) {
+    alert("My favorite city is" + yourCity);
+};

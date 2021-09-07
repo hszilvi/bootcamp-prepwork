@@ -5,7 +5,6 @@
  * 'panda' and 'giraffe' into it as strings
  */
 
-
 /**
  * Exercise 2
  *
@@ -83,3 +82,33 @@
  */
 
 
+ const wildAnimals = ["tiger", "rabbit", "panda", "giraffe"];
+ wildAnimals.length > 3;
+
+ const pets = ["cat", "dog", "hamster"];
+ pets.length >= 3;
+
+ const animals = wildAnimals.concat(pets);
+
+ var dogIndex = animals.findIndex(x => x === "dog");
+
+ var pandaIndex = animals.findIndex(x => x === "panda");
+
+ var numbers = [];
+ for (var i=1; i <= 9; i++) {
+     numbers.push(i);
+ }
+ for (var i=9; i > 0; i--) {
+    numbers.push(i);
+}
+
+var first4DigitIndex = numbers.indexOf(4);
+var last4DigitIndex = numbers.lastIndexOf(4);
+
+var hasSeven = numbers.includes(7);
+
+var hasTwenty = numbers.includes(20);
+
+var moreThanFour = numbers.find(element => element > 4);
+
+var moreThanSevenIndex = numbers.find(element => element >= 7);
